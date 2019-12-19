@@ -1,0 +1,62 @@
+[
+    {
+        "uid": "_:bernard",
+        "edges": {
+            "uid": "_:alex"
+        }
+    },
+    {
+        "uid": "_:bernard",
+        "edges": {
+            "uid": "_:verity"
+        }
+    },
+    {
+        "uid": "_:bernard",
+        "edges": {
+            "uid": "_:david"
+        }
+    },
+    {
+        "uid": "_:bernard",
+        "edges": {
+            "uid": "_:nathaniel"
+        }
+    },
+    {
+        "uid": "_:richard",
+        "edges": {
+            "uid": "_:jess"
+        }
+    },
+    {
+        "uid": "_:jen",
+        "edges": {
+            "uid": "_:bernard"
+        }
+    },
+    {
+        "uid": "_:jen",
+        "edges": {
+            "uid": "_:richard"
+        }
+    },
+    {
+        "uid": "_:alex",
+        "edges": {
+            "uid": "_:objective001"
+        }
+    },
+    {
+        "uid": "_:alex",
+        "edges": {
+            "uid": "_:objective002"
+        }
+    },
+    {
+        "uid": "_:verity",
+        "edges": {
+            "uid": "_:objective003"
+        }
+    }
+]

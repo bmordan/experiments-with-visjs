@@ -1,0 +1,20 @@
+[
+    {
+        "uid": "_:objective001",
+        "type": "object",
+        "description": "create a piece of writing that explains some aspect of your job",
+        "due_date": "2020-02-23"
+    },
+    {
+        "uid": "_:objective002",
+        "type": "object",
+        "description": "Talk to your line manager about how they organise their time",
+        "due_date": "2020-02-12"
+    },
+    {
+        "uid": "_:objective003",
+        "type": "object",
+        "description": "A piece of work for verity that she has to do before the start of March",
+        "due_date": "2020-02-28"        
+    }
+]

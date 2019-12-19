@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    section
+        a-scene(vr-mode-ui="enabled: false")
+            a-entity(position="0 0 0" forcegraph=data)
+            a-camera(position="60 0 -60")
+            a-sky(color="#002")

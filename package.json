@@ -1,0 +1,23 @@
+{
+  "name": "applied",
+  "version": "0.1.0",
+  "description": "applied data in a 3D construct",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "dgraph",
+    "a-frame",
+    "data",
+    "forcegraph"
+  ],
+  "author": "bmordan",
+  "license": "MIT",
+  "dependencies": {
+    "dgraph-js": "^2.0.2",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "vis-network": "^6.4.7"
+  }
+}

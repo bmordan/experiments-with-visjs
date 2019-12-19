@@ -1,0 +1,50 @@
+[
+    {
+        "uid": "_:bernard",
+        "name": "Bernard",
+        "role": "coach",
+        "type": "person"
+    },
+    {
+        "uid": "_:richard",
+        "name": "Richard",
+        "role": "coach",
+        "type": "person"
+    },
+    {
+        "uid": "_:jen",
+        "name": "Jen",
+        "role": "linemanager",
+        "type": "person"
+    },
+    {
+        "uid": "_:alex",
+        "name": "Alex G",
+        "role": "apprentice",
+        "type": "person"
+    },
+    {
+        "uid": "_:david",
+        "name": "David",
+        "role": "apprentice",
+        "type": "person"
+    },
+    {
+        "uid": "_:jess",
+        "name": "Jess",
+        "role": "apprentice",
+        "type": "person"
+    },
+    {
+        "uid": "_:nathaniel",
+        "name": "Nathaniel",
+        "role": "apprentice",
+        "type": "person"
+    },
+    {
+        "uid": "_:verity",
+        "name": "Verity",
+        "role": "apprentice",
+        "type": "person"
+    }
+]

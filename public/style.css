@@ -1,0 +1,18 @@
+section {
+    display: grid;
+    grid-template-columns: auto auto 17vw;
+    grid-template-areas:
+        'main-upper main-upper aside'
+        'main-lower main-lower aside'
+    ;
+    height: calc(100vh - 4rem);
+}
+main.upper {
+    grid-area: main-upper;
+}
+main.lower {
+    grid-area: main-lower;
+}
+aside {
+    grid-area: aside;
+}
