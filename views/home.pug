@@ -1,20 +1,7 @@
 extends layout.pug
 block content
-    section
-        main.upper.bg-blue
-        main#graph.lower.bg-dark-blue.pa2(data-for-graph=data)
-        aside.bg-green.pa2
-            this is my first a-frame experiment
-    script.
-        const graph = document.getElementById('graph')
-        const data = JSON.parse(graph.getAttribute('data-for-graph'))
-        const nodes = new vis.DataSet(data.nodes)
-        const edges = new vis.DataSet(data.edges)
-        const network = new vis.Network(graph, {nodes, edges}, {})
-        network.on('doubleClick', evt => {
-            fetch(`/nodes/${evt.nodes[0]}`)
-            .then(result => result.json())
-            .then(nodeData => {
-                console.log(JSON.stringify(nodeData, null, 3))
-            })
-        })
+    section.main
+        main#graph(data-for-graph=data).upper
+        main.lower.bg-dark-blue.pa2
+        aside#info-panel.pa2.bl.b--light-gray.bg-near-white
+    script(src="/main.js")

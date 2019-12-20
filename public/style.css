@@ -1,9 +1,9 @@
-section {
+section.main {
     display: grid;
-    grid-template-columns: auto auto 17vw;
+    grid-template-columns: auto auto 33vw;
     grid-template-areas:
         'main-upper main-upper aside'
-        'main-lower main-lower aside'
+        'main-lower main-lower main-lower'
     ;
     height: calc(100vh - 4rem);
 }
